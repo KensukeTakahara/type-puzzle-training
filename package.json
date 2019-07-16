@@ -1,0 +1,11 @@
+{
+  "name": "type-puzzle-training",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KensukeTakahara/type-puzzle-training.git",
+  "author": "Kensuke Takahara <zawcjk@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.5.3"
+  }
+}
