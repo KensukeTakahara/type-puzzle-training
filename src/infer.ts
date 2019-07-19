@@ -9,3 +9,11 @@ type NumberReturn = ModReturnType<typeof greet>
 
 type ArrayUnpacked<T> = T extends (infer U)[] ? U : never
 type Content = ArrayUnpacked<string[]>
+
+type ExtractActionFunction<T> = T extends (...arg: any[]) => { type: any; payload?: any }
+  ? (...arg: any[]) => void
+  : never
+export const login = () => ({
+  type: 'LOGIN'
+})
+type Login = ExtractActionFunction<typeof login>
