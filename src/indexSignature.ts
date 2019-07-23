@@ -52,6 +52,9 @@ interface NestedCSS {
   }
 }
 
+const a = [1, 2, [3, 4]]
+a.flat()
+
 const example: NestedCSS = {
   color: 'red',
   nest: {

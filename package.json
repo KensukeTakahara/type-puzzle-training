@@ -7,6 +7,8 @@
   "license": "MIT",
   "dependencies": {
     "@types/ramda": "^0.26.16",
+    "apollo-boost": "^0.4.3",
+    "graphql": "^14.4.2",
     "ramda": "^0.26.1",
     "typescript": "^3.5.3"
   },
