@@ -4,6 +4,7 @@ const a = 3
 // true
 console.log(R.equals(3)(a))
 
+// type SafePred<T> = (...a: T[]) => boolean;
 const predType = (ramdaType: string) => (type: unknown) => R.type(type) === ramdaType
 
 const f = R.cond([
