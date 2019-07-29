@@ -6,8 +6,10 @@
   "author": "Kensuke Takahara <zawcjk@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/axios": "^0.14.0",
     "@types/ramda": "^0.26.16",
     "apollo-boost": "^0.4.3",
+    "axios": "^0.19.0",
     "graphql": "^14.4.2",
     "ramda": "^0.26.1",
     "typescript": "^3.5.3"
