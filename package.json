@@ -13,7 +13,7 @@
     "apollo-boost": "^0.4.3",
     "axios": "^0.21.1",
     "graphql": "^14.4.2",
-    "jszip": "^3.2.2",
+    "jszip": "^3.7.0",
     "lodash": "^4.17.21",
     "ramda": "^0.26.1",
     "typescript": "^3.5.3"
